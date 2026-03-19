@@ -22,12 +22,21 @@
 .header-color {
   color: blue;
 }
+button[disabled="disabled"] {
+  background-color: grey;
+}
 .option {
   padding: 8px 10px;
   text-align: left;
   width: 100%;
   /* border: none; */
   margin: 5px 0;
+  border-radius: 10px;
+}
+.option.selected {
+  background-color: #83c2fd;
+  color: #000000;
+  border: 1px solid blue;
 }
 .question {
   text-align: left;
